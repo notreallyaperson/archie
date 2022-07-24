@@ -19,7 +19,7 @@ export const About = (props) => {
               <div className="list-style" style={{ fontSize: '16px' }}>
                 <div className="col-lg-12 col-sm-12 col-xs-12">
                   <ul>
-                    <li style={{ paddingLeft: '2px' }}><FontAwesomeIcon icon={faCalendarAlt} /><span
+                    <li style={{ paddingLeft: '3px' }}><FontAwesomeIcon icon={faCalendarAlt} /><span
                       href="https://goo.gl/maps/uqhoBe1xodFHCryk8"
                       style={{ marginLeft: '1rem', textDecoration: 'none', cursor: 'pointer' }}>
                       6 August, 2022
@@ -28,7 +28,7 @@ export const About = (props) => {
                       style={{ marginLeft: '7px', textDecoration: 'none', cursor: 'pointer' }}>
                       Casual Attire
                     </span></li>
-                    <li style={{ paddingLeft: '2px' }}><FontAwesomeIcon icon={faLocationDot} /><span
+                    <li style={{ paddingLeft: '3px' }}><FontAwesomeIcon icon={faLocationDot} /><span
                       style={{ marginLeft: '1rem', textDecoration: 'none', cursor: 'pointer' }}>
                       132 Jalan Athinahapan 1
                     </span></li>
