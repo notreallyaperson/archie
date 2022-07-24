@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top' style={{ padding: '0px' }}>
-            <img src={happyBirthday} style={{ width: '100%', maxHeight: '100%' }} />
+            <img src={happyBirthday} style={{ width: '100%', maxWidth: '100px', maxHeight: '100%' }} />
           </a>{' '}
         </div>
 
