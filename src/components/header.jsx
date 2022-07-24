@@ -13,7 +13,7 @@ export const Header = (props) => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </header>
   )
 }
