@@ -255,8 +255,19 @@ a:focus,
   margin-right: auto;
   margin-left: auto;
 }
+
 .birthday-concert {
   background: url(../img/Archie-standing.jpeg) center center no-repeat;
+  position: relative;
+}
+
+.featuring-image {
+  position: absolute;
+  bottom: 20;
+  right: 20;
+  width: auto;
+  z-index: 1000;
+  width: 200px;
 }
 
 .intro .overlay {
@@ -729,6 +740,9 @@ label {
 @media (max-width: 768px) {
   header .intro-text h1 {
     font-size: 60px;
+  }
+  .featuring-image{
+    width: 150px;
   }
 }
 
