@@ -1,39 +1,57 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Header13 } from "./components/header-13";
 import { About } from "./components/about";
+import { About13 } from "./components/about-13";
 import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
+const LandingPage = () => {
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
+  return <>
+    <Header data={landingPageData.Header} />
+    <About data={landingPageData.About} />
+  </>
+}
+
+const ConcertPage = () => {
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
+  return <>
+    <Header13 data={landingPageData.Header} />
+    <About13 data={landingPageData.About} />
+  </>
+}
+
+
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-
   return (
-    <div>
+    <BrowserRouter>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/concert" element={<ConcertPage />} />
+      </Routes>
       <Services data={landingPageData.Services} />
-      {/* <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} /> */}
-    </div>
+    </BrowserRouter>
   );
 };
 

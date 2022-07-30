@@ -255,6 +255,9 @@ a:focus,
   margin-right: auto;
   margin-left: auto;
 }
+.birthday-concert {
+  background: url(../img/Archie-standing.jpeg) center center no-repeat;
+}
 
 .intro .overlay {
   background: rgba(0, 0, 0, 0.3);
