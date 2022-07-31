@@ -2,11 +2,9 @@
 trackOut="$(git status | grep Untracked)"
 stashOut="$(git stash)"
 git stash apply
-isContinue=false
-if [ "$stashOut" = "No local changes to save" ]
+isContinue=true
+if [ "$stashOut" != "No local changes to save" ]
 then 
-    isContinue=true 
-else 
     isContinue=false
     echo "Please STASH or COMMIT CHANGES!"
 fi
@@ -14,10 +12,8 @@ if [ "$trackOut" = "Untracked files:" ]
 then 
     isContinue=false
     echo "Please COMMIT Untracked files!"
-else 
-    isContinue=true 
 fi
-if isContinue=true
+if $isContinue
 then
     git checkout deploy2
     git pull
