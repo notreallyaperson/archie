@@ -49,6 +49,13 @@ const App = () => {
       <Routes>
         <Route path="/" element={<ConcertPage />} />
       </Routes>
+      <div style={{ backgroundColor: '#fb5d5c', paddingTop: '40px', paddingBottom: '40px'}}>
+        <div style={{ backgroundColor: '#fb5d5c', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div style={{ maxWidth: '650px' }}>
+            <img src="img/agenda.jpg" className="img-responsive" style={{ boxShadow: 'none' }} alt="" />
+          </div>
+        </div>
+      </div>
       <Services data={landingPageData.Services} />
     </BrowserRouter>
   );
