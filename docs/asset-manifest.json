@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/archie/static/css/main.510018ac.chunk.css",
-    "main.js": "/archie/static/js/main.6864f058.chunk.js",
-    "main.js.map": "/archie/static/js/main.6864f058.chunk.js.map",
+    "main.js": "/archie/static/js/main.ca6d744f.chunk.js",
+    "main.js.map": "/archie/static/js/main.ca6d744f.chunk.js.map",
     "runtime-main.js": "/archie/static/js/runtime-main.e172432f.js",
     "runtime-main.js.map": "/archie/static/js/runtime-main.e172432f.js.map",
     "static/js/2.4a4379b5.chunk.js": "/archie/static/js/2.4a4379b5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e172432f.js",
     "static/js/2.4a4379b5.chunk.js",
     "static/css/main.510018ac.chunk.css",
-    "static/js/main.6864f058.chunk.js"
+    "static/js/main.ca6d744f.chunk.js"
   ]
 }
