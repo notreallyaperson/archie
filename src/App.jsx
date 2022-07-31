@@ -47,8 +47,7 @@ const App = () => {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/concert" element={<ConcertPage />} />
+        <Route path="/" element={<ConcertPage />} />
       </Routes>
       <Services data={landingPageData.Services} />
     </BrowserRouter>
