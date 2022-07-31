@@ -20,7 +20,6 @@ export const About13 = (props) => {
                 <div className="col-lg-12 col-sm-12 col-xs-12">
                   <ul>
                     <li style={{ paddingLeft: '3px' }}><FontAwesomeIcon icon={faCalendarAlt} /><span
-                      href="https://goo.gl/maps/uqhoBe1xodFHCryk8"
                       style={{ marginLeft: '1rem', textDecoration: 'none', cursor: 'pointer' }}>
                       13 August, 2022
                     </span></li>
@@ -41,7 +40,7 @@ export const About13 = (props) => {
                       BYOB. We have some drinks but the more the merrier
                     </span></li>
                   </ul>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9395266622946!2d101.59593961475724!3d3.1107027977348674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c1e879c0b59%3A0x7d8b72057b88c0da!2sSoulCity%20Hub!5e0!3m2!1sen!2smy!4v1659179653524!5m2!1sen!2smy"  style={{ border: "0", width: "100%", minHeight: '250px', marginTop: '1rem' }} className='paddingRight' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15935.758103591907!2d101.598128!3d3.110703!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d8b72057b88c0da!2sSoulCity%20Hub!5e0!3m2!1sen!2smy!4v1659286371142!5m2!1sen!2smy"  style={{ border: "0", width: "100%", minHeight: '250px', marginTop: '1rem' }} className='paddingRight' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
             </div>
