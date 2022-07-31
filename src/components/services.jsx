@@ -6,7 +6,7 @@ export const Services = (props) => {
           <h2>Presents</h2>
           <img 
           style={{maxWidth:'100%'}}
-          src ='/img/1amx.gif'/>
+          src ='./img/1amx.gif'/>
           <p>
             I already have so many toys in my house, I don't think I need anymore. Instead donate below and I will be giving it to <a href="https://fobk.org/" style={{color: 'white', textDecoration: 'underline'}}>FoBK</a> and <a href="https://sibiam.my/" style={{color: 'white', textDecoration: 'underline'}}>SIBIAM</a> to run programs for children who are less fortunate than me.
           </p>
