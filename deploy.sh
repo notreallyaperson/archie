@@ -1,10 +1,20 @@
 #!/bin/bash
+trackOut="$(git status | grep Untracked)"
 stashOut="$(git stash)"
-isStashed=true
-initialBranch=$(git rev-parse --abbrev-ref HEAD)
-if [ "$isStashed" = true ]; then git stash apply; fi
-if [ "$stashOut" = "No local changes to save" ]; then isStashed=false; else echo "Please STASH or COMMIT CHANGES!" ; fi
-if isStashed=false 
+git stash apply
+if [ "$stashOut" = "No local changes to save" ]
+then 
+    continue=true 
+else 
+    echo "Please STASH or COMMIT CHANGES!"
+fi
+if [ "$trackOut" = "Untracked files:" ]
+then 
+    continue=true 
+else 
+    echo "Please COMMIT Untracked files!"
+fi
+if continue=true 
 then
     git checkout deploy2
     git pull
@@ -18,6 +28,4 @@ then
     git commit -m "Deploy: $(date) $commit_id"
     git push
     echo "WEBSITE DEPLOYED!"
-else
-    echo "Please STASH or COMMIT CHANGES!!"
 fi
