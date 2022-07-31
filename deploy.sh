@@ -6,12 +6,14 @@ if [ "$stashOut" = "No local changes to save" ]
 then 
     continue=true 
 else 
+    continue=false
     echo "Please STASH or COMMIT CHANGES!"
 fi
 if [ "$trackOut" = "Untracked files:" ]
 then 
     continue=true 
 else 
+    continue=false
     echo "Please COMMIT Untracked files!"
 fi
 if continue=true 
