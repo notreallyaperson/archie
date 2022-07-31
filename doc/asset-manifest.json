@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/archie/static/css/main.510018ac.chunk.css",
+    "main.js": "/archie/static/js/main.b945425a.chunk.js",
+    "main.js.map": "/archie/static/js/main.b945425a.chunk.js.map",
+    "runtime-main.js": "/archie/static/js/runtime-main.e172432f.js",
+    "runtime-main.js.map": "/archie/static/js/runtime-main.e172432f.js.map",
+    "static/js/2.4a4379b5.chunk.js": "/archie/static/js/2.4a4379b5.chunk.js",
+    "static/js/2.4a4379b5.chunk.js.map": "/archie/static/js/2.4a4379b5.chunk.js.map",
+    "index.html": "/archie/index.html",
+    "static/css/main.510018ac.chunk.css.map": "/archie/static/css/main.510018ac.chunk.css.map",
+    "static/js/2.4a4379b5.chunk.js.LICENSE.txt": "/archie/static/js/2.4a4379b5.chunk.js.LICENSE.txt",
+    "static/media/christian-palencia.f5a973af.jpeg": "/archie/static/media/christian-palencia.f5a973af.jpeg",
+    "static/media/happy-birthday.03137f09.png": "/archie/static/media/happy-birthday.03137f09.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e172432f.js",
+    "static/js/2.4a4379b5.chunk.js",
+    "static/css/main.510018ac.chunk.css",
+    "static/js/main.b945425a.chunk.js"
+  ]
+}

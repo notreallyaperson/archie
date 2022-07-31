@@ -44,7 +44,7 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/archie'}>
       <Navigation />
       <Routes>
         <Route path="/" element={<ConcertPage />} />
